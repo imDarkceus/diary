@@ -728,7 +728,8 @@ int password()
 
     printf("::FOR SECURITY PURPOSE::");
 
-    printf("::ONLY THREE TRIALS ARE ALLOWED::");
+    printf("::ONLY THREE TRIALS ARE ALLOWED::\n\t\t");
+    printf("PRESS ENTER TO CONTINUE...");
 
     for(j=0; j<3; j++)
 
